@@ -30,6 +30,6 @@ sampling_distribution(song_tempos, 30, "Minimum")
 standard_error = population_std/30**0.5
 print(standard_error)
 # Calculate the probability of observing an average tempo of 140bpm or lower from a sample of 30 songs
-print(stats.norm.cdf(140, 147.74, 3.35))
+print(stats.norm.cdf(140, 147.74, 4.35))
 # Calculate the probability of observing an average tempo of 150bpm or higher from a sample of 30 songs
-print(1 - stats.norm.cdf(150, 147.74, 3.35))
+print(1 - stats.norm.cdf(150, 147.74, 4.35))
