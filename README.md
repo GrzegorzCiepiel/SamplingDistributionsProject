@@ -15,7 +15,7 @@
    I use python 3.11 and work on pycharm
 
    ### As a first part of that project I decided to make a review from sampling distribution. ###
-  I selected "tempo" where each song is described in bits per minute
+  I selected "tempo" where each song is described in bits per minute. 
   I want to compare tempo  distribution in whole dataset with distribution of mean from 500 randomly
   chosen samples of 30 songs.
 
