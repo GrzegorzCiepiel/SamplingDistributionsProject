@@ -23,3 +23,13 @@ def choose_statistic(x, sample_stat_text):
 
   else:
     raise Exception('Make sure to input "Mean", "Minimum", "Mode", "Std" or "Variance"')
+
+
+def population_distribution(population_data):
+  # plot the population distribution
+  sns.histplot(population_data, stat='density', palette='flare')
+  plt.title(f"Population Distribution")
+  # remove None label
+  plt.xlabel('')
+  plt.show()
+  plt.clf()
